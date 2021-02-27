@@ -1,0 +1,98 @@
+p {
+  position: absolute;
+  margin-left: 150px;
+  background-color: blueviolet;
+  margin-top: 605px;
+  font-weight: 900;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: crimson;
+}
+
+#score {
+  color: #00d9ff;
+  background: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  margin-top: 1em;
+  margin-left: 5em;
+  font-weight: 900;
+  position: absolute;
+  font-size: larger;
+}
+#highscore {
+  color: #00d9ff;
+  background: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  margin-top: 1em;
+  font-weight: 900;
+  margin-left: 15em;
+  position: absolute;
+  font-size: larger;
+}
+
+* {
+  background-image: url("./images/glaxy.jpg");
+}
+
+#start-btn {
+  background: none;
+  padding: 38px 70px;
+  border: none;
+  font-family: monospace;
+  position: absolute;
+  top: 270px;
+  left: 200px;
+  letter-spacing: 0.5ch;
+  text-transform: uppercase;
+  font-weight: 900;
+  background-image: url("./images/plai.png");
+}
+
+#menu {
+  background: none;
+  padding: 18px 46px;
+  border: none;
+  font-family: monospace;
+  position: absolute;
+  top: 60px;
+  left: 750px;
+  letter-spacing: 0.5ch;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: none;
+  background-image: url("./images/Mainu.png");
+}
+
+#pause {
+  background: none;
+  padding: 18px 32px;
+  border: none;
+  font-family: monospace;
+  position: absolute;
+  top: 60px;
+  left: 860px;
+  letter-spacing: 0.5ch;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: none;
+  background-image: url("./images/pose.png");
+}
+
+#play {
+  background: none;
+  padding: 38px 70px;
+  border: none;
+  font-family: monospace;
+  position: absolute;
+  top: 280px;
+  left: 475px;
+  letter-spacing: 0.5ch;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: none;
+  background-image: url("./images/plai.png");
+}
