@@ -26,7 +26,7 @@ function setup() {
 function draw() {
   music.setVolume(slider.value());
   clear();
-  image(gif_loadImg, 50, 50);
+  image(gif_loadImg, 250, 250);
   gif_createImg.position(1020, 200);
   if (mode == 0) {
     background(bg);
@@ -52,7 +52,7 @@ function draw() {
         success.play();
         console.log("good one");
         score += 1;
-        document.getElementById("score").innerHTML = "Score: " + score;
+        document.getElementById("score").innerHTML = "Skor: " + score;
         if (score >= highScore) {
           console.log("SCOOOORE: ", score);
           console.log("420SCORE: ", highScore);
@@ -60,7 +60,7 @@ function draw() {
           highScore = score;
           document.getElementById(
             "highscore"
-          ).innerHTML = `High Score: ${highScore}`;
+          ).innerHTML = `Hight Skor: ${highScore}`;
           console.log(score);
         }
       }
